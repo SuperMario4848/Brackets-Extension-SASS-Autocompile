@@ -1,7 +1,7 @@
 {
     "name": "sass-autocompile-plugin",
     "title": "SASS-Autocompile",
-    "description": "Compiles all your .sass files automatically everytime you save them.",
+    "description": "Compiles all your .scss files automatically everytime you save them.",
     "homepage": "https://github.com/SuperMario4848/Brackets_Extension_SASS_Autocompile.git",
     "version": "1.0.1",
     "author": "SuperMario4848",
