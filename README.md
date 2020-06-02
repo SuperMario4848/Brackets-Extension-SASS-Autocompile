@@ -1,4 +1,4 @@
-# Brackets_Extension_SASS_Autocompile
+# Brackets-Extension-SASS-Autocompile
 An Extension for the Code-Editor Brackets to autocompile SCSS-Files while saving. Does only work for files that follow the scss syntax and and with ".scss".
 SASS-Compiler from: https://github.com/medialize/sass.js/
 
