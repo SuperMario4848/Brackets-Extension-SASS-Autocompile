@@ -4,7 +4,7 @@ SASS-Compiler from: https://github.com/medialize/sass.js/
 
 After installing the Extension, a new Menu called "Sass Compiler" should be in the top-Menubar. There are three options in this menu:
   - Select Source: Select the folder where all your .scss files are located. Make sure the main-scss-file, that one where all your        imports are coming together is called "main" or "Main"
-  - Select Destination: Select the CSS file you want your scss-files to be compiled in.
+  - Select Destination: Select the CSS file you want your scss-files to be compiled in. IMPORTANT: At the moment the css file must be in a different folder than the scss-source files.
   
 After these steps you can enable the autocompile by clicking on "Activate Autocompile"
 
