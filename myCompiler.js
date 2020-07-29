@@ -39,7 +39,7 @@ define(function defineSassModule(require, exports, module) {
     // tell Sass.js where it can find the worker,
     // url is relative to document.URL - i.e. outside of whatever
     // Require or Browserify et al do for you
-    Sass.setWorkerUrl(extLoader.getUserExtensionPath() + "/sass-autocompile-plugin/sass.js-master/dist/sass.worker.js");
+    Sass.setWorkerUrl(extLoader.getUserExtensionPath() + "/brackets-extension-sass-autocompile/sass.js-master/dist/sass.worker.js");
 
     // initialize a Sass instance
     var sass = new Sass();
