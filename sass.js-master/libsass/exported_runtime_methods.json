@@ -1,6 +1,6 @@
 [
   "ccall",
-  "UTF8ToString",
+  "Pointer_stringify",
   "getValue",
   "lengthBytesUTF8",
   "stringToUTF8"

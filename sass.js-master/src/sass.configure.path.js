@@ -10,8 +10,7 @@ var SASSJS_RELATIVE_PATH = (function() {
   'use strict';
 
   // in Node things are rather simple
-  var hasDir = typeof __dirname !== 'undefined';
-  if (hasDir) {
+  if (typeof __dirname !== 'undefined') {
     return __dirname;
   }
 
