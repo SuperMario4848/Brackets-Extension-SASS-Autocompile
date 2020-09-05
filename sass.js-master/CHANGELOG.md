@@ -1,5 +1,31 @@
 # Sass.js Changelog
 
+## 0.11.1 (Oct 20th 2019) ##
+
+* upgrading to [libsass 3.6.2](https://github.com/sass/libsass/releases/tag/3.6.2)
+* upgrading to [emscripten 1.39.0](https://github.com/kripken/emscripten/releases/tag/1.39.0)
+
+## 0.11.0 (May 19th 2019) ##
+
+* fixing path resolver in node - [Issue #122](https://github.com/medialize/sass.js/pull/122)
+* upgrading to [libsass 3.6.0](https://github.com/sass/libsass/releases/tag/3.6.0)
+* upgrading to [emscripten 1.38.31](https://github.com/kripken/emscripten/releases/tag/1.38.31)
+
+## 0.10.13 (November 19th 2018) ##
+
+* fixing `sass.configure.paths.js` to restore ES5 compatibility - [Issue #109](https://github.com/medialize/sass.js/pull/109)
+
+## 0.10.12 (November 14th 2018) ##
+
+* fixing `sass.configure.paths.js` for angular compiler - [Issue #105](https://github.com/medialize/sass.js/pull/105) [Issue #100](https://github.com/medialize/sass.js/issues/100)
+* upgrading to [libsass 3.5.5](https://github.com/sass/libsass/releases/tag/3.5.5)
+* upgrading to [emscripten 1.38.18](https://github.com/kripken/emscripten/releases/tag/1.38.18)
+
+## 0.10.11 (September 22nd 2018) ##
+
+* upgrading to [emscripten 1.38.12](https://github.com/kripken/emscripten/releases/tag/1.38.12) - ([Issue #85](https://github.com/medialize/sass.js/issues/85))
+* fixing IE11 compatibility by adding `-s LEGACY_VM_SUPPORT=1` - ([Issue #96](https://github.com/medialize/sass.js/issues/96))
+
 ## 0.10.10 (July 7th 2018) ##
 
 * upgrading to [libsass 3.5.4](https://github.com/sass/libsass/releases/tag/3.5.4)

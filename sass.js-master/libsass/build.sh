@@ -21,11 +21,14 @@ patch ./libsass/Makefile.conf < ./Makefile.conf.patch
 echo "  copying emscripten_wrapper"
 cp ./emscripten_wrapper.cpp ./libsass/src/emscripten_wrapper.cpp
 cp ./emscripten_wrapper.hpp ./libsass/src/emscripten_wrapper.hpp
+cp ./exported_runtime_methods.json ./libsass/exported_runtime_methods.json
+cp ./emterpreter_whitelist.json ./libsass/emterpreter_whitelist.json
 
 # build
+EMSCRIPTEN_TAG="sdk-tag-1.39.0-64bit"
 echo "  initializing emscripten"
 if [ "${2:-}" = "debug" ]; then
-  (cd libsass && emmake make js-debug)
+  docker run --rm --volume "$(pwd)/libsass:/src" --user="emscripten" trzeci/emscripten:${EMSCRIPTEN_TAG} emmake make js-debug
 else
-  (cd libsass && emmake make js)
+  docker run --rm --volume "$(pwd)/libsass:/src" --user="emscripten" trzeci/emscripten:${EMSCRIPTEN_TAG} emmake make js
 fi
